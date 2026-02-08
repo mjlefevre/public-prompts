@@ -2,7 +2,7 @@
 
 A comprehensive catalog of all patterns available in the [Fabric framework](https://github.com/danielmiessler/fabric) by Daniel Miessler.
 
-**Key Pattern:** `suggest_pattern` - Suggests appropriate fabric patterns or commands based on user input.
+**Key Pattern:** [`suggest_pattern`](https://github.com/danielmiessler/fabric/blob/main/data/patterns/suggest_pattern/system.md) - Suggests appropriate fabric patterns or commands based on user input. [[raw](https://raw.githubusercontent.com/danielmiessler/fabric/main/data/patterns/suggest_pattern/system.md)]
 
 ## Table of Contents
 
@@ -18,57 +18,105 @@ These patterns can be used across various domains and aren't specific to particu
 
 ### Content Creation & Writing
 
-- **create_summary**: Creates concise summaries in various formats
-- **create_micro_summary**: Creates very brief 20-word summaries
-- **summarize**: Formats content into key points and takeaways
-- **summarize_micro**: Creates minimal summaries with main points
-- **create_aphorisms**: Generates brief, witty statements
-- **create_art_prompt**: Generates detailed visual descriptions
-- **create_formal_email**: Crafts professional emails
-- **write_essay**: Writes concise essays in Paul Graham's style
-- **write_micro_essay**: Creates short, clear essays
-- **humanize**: Rewrites AI text to sound more natural
-- **improve_writing**: Refines text with grammar and style
-- **clean_text**: Fixes broken or malformatted text
-- **convert_to_markdown**: Converts content to clean Markdown
-- **analyze_prose**: Evaluates writing for novelty and clarity
-- **analyze_prose_json**: Similar to analyze_prose but in JSON format
-- **analyze_prose_pinker**: Evaluates prose based on Steven Pinker's style
+- **[create_summary](https://github.com/danielmiessler/fabric/blob/main/data/patterns/create_summary/system.md)**: Creates concise summaries in various formats [[raw](https://raw.githubusercontent.com/danielmiessler/fabric/main/data/patterns/create_summary/system.md)]
+- **[create_micro_summary](https://github.com/danielmiessler/fabric/blob/main/data/patterns/create_micro_summary/system.md)**: Creates very brief 20-word summaries [[raw](https://raw.githubusercontent.com/danielmiessler/fabric/main/data/patterns/create_micro_summary/system.md)]
+- **[create_5_sentence_summary](https://github.com/danielmiessler/fabric/blob/main/data/patterns/create_5_sentence_summary/system.md)**: Creates five-sentence summaries [[raw](https://raw.githubusercontent.com/danielmiessler/fabric/main/data/patterns/create_5_sentence_summary/system.md)]
+- **[summarize](https://github.com/danielmiessler/fabric/blob/main/data/patterns/summarize/system.md)**: Formats content into key points and takeaways [[raw](https://raw.githubusercontent.com/danielmiessler/fabric/main/data/patterns/summarize/system.md)]
+- **[summarize_micro](https://github.com/danielmiessler/fabric/blob/main/data/patterns/summarize_micro/system.md)**: Creates minimal summaries with main points [[raw](https://raw.githubusercontent.com/danielmiessler/fabric/main/data/patterns/summarize_micro/system.md)]
+- **[summarize_prompt](https://github.com/danielmiessler/fabric/blob/main/data/patterns/summarize_prompt/system.md)**: Summarizes prompts [[raw](https://raw.githubusercontent.com/danielmiessler/fabric/main/data/patterns/summarize_prompt/system.md)]
+- **[create_aphorisms](https://github.com/danielmiessler/fabric/blob/main/data/patterns/create_aphorisms/system.md)**: Generates brief, witty statements [[raw](https://raw.githubusercontent.com/danielmiessler/fabric/main/data/patterns/create_aphorisms/system.md)]
+- **[create_art_prompt](https://github.com/danielmiessler/fabric/blob/main/data/patterns/create_art_prompt/system.md)**: Generates detailed visual descriptions [[raw](https://raw.githubusercontent.com/danielmiessler/fabric/main/data/patterns/create_art_prompt/system.md)]
+- **[create_formal_email](https://github.com/danielmiessler/fabric/blob/main/data/patterns/create_formal_email/system.md)**: Crafts professional emails [[raw](https://raw.githubusercontent.com/danielmiessler/fabric/main/data/patterns/create_formal_email/system.md)]
+- **[write_essay](https://github.com/danielmiessler/fabric/blob/main/data/patterns/write_essay/system.md)**: Writes concise essays [[raw](https://raw.githubusercontent.com/danielmiessler/fabric/main/data/patterns/write_essay/system.md)]
+- **[write_essay_pg](https://github.com/danielmiessler/fabric/blob/main/data/patterns/write_essay_pg/system.md)**: Writes essays in Paul Graham's style [[raw](https://raw.githubusercontent.com/danielmiessler/fabric/main/data/patterns/write_essay_pg/system.md)]
+- **[write_micro_essay](https://github.com/danielmiessler/fabric/blob/main/data/patterns/write_micro_essay/system.md)**: Creates short, clear essays [[raw](https://raw.githubusercontent.com/danielmiessler/fabric/main/data/patterns/write_micro_essay/system.md)]
+- **[humanize](https://github.com/danielmiessler/fabric/blob/main/data/patterns/humanize/system.md)**: Rewrites AI text to sound more natural [[raw](https://raw.githubusercontent.com/danielmiessler/fabric/main/data/patterns/humanize/system.md)]
+- **[improve_writing](https://github.com/danielmiessler/fabric/blob/main/data/patterns/improve_writing/system.md)**: Refines text with grammar and style [[raw](https://raw.githubusercontent.com/danielmiessler/fabric/main/data/patterns/improve_writing/system.md)]
+- **[improve_academic_writing](https://github.com/danielmiessler/fabric/blob/main/data/patterns/improve_academic_writing/system.md)**: Improves academic writing quality [[raw](https://raw.githubusercontent.com/danielmiessler/fabric/main/data/patterns/improve_academic_writing/system.md)]
+- **[improve_prompt](https://github.com/danielmiessler/fabric/blob/main/data/patterns/improve_prompt/system.md)**: Improves AI prompts [[raw](https://raw.githubusercontent.com/danielmiessler/fabric/main/data/patterns/improve_prompt/system.md)]
+- **[clean_text](https://github.com/danielmiessler/fabric/blob/main/data/patterns/clean_text/system.md)**: Fixes broken or malformatted text [[raw](https://raw.githubusercontent.com/danielmiessler/fabric/main/data/patterns/clean_text/system.md)]
+- **[fix_typos](https://github.com/danielmiessler/fabric/blob/main/data/patterns/fix_typos/system.md)**: Fixes typos in text [[raw](https://raw.githubusercontent.com/danielmiessler/fabric/main/data/patterns/fix_typos/system.md)]
+- **[convert_to_markdown](https://github.com/danielmiessler/fabric/blob/main/data/patterns/convert_to_markdown/system.md)**: Converts content to clean Markdown [[raw](https://raw.githubusercontent.com/danielmiessler/fabric/main/data/patterns/convert_to_markdown/system.md)]
+- **[sanitize_broken_html_to_markdown](https://github.com/danielmiessler/fabric/blob/main/data/patterns/sanitize_broken_html_to_markdown/system.md)**: Converts broken HTML to Markdown [[raw](https://raw.githubusercontent.com/danielmiessler/fabric/main/data/patterns/sanitize_broken_html_to_markdown/system.md)]
+- **[translate](https://github.com/danielmiessler/fabric/blob/main/data/patterns/translate/system.md)**: Translates text between languages [[raw](https://raw.githubusercontent.com/danielmiessler/fabric/main/data/patterns/translate/system.md)]
+- **[tweet](https://github.com/danielmiessler/fabric/blob/main/data/patterns/tweet/system.md)**: Creates tweet-sized content [[raw](https://raw.githubusercontent.com/danielmiessler/fabric/main/data/patterns/tweet/system.md)]
+- **[analyze_prose](https://github.com/danielmiessler/fabric/blob/main/data/patterns/analyze_prose/system.md)**: Evaluates writing for novelty and clarity [[raw](https://raw.githubusercontent.com/danielmiessler/fabric/main/data/patterns/analyze_prose/system.md)]
+- **[analyze_prose_json](https://github.com/danielmiessler/fabric/blob/main/data/patterns/analyze_prose_json/system.md)**: Similar to analyze_prose but in JSON format [[raw](https://raw.githubusercontent.com/danielmiessler/fabric/main/data/patterns/analyze_prose_json/system.md)]
+- **[analyze_prose_pinker](https://github.com/danielmiessler/fabric/blob/main/data/patterns/analyze_prose_pinker/system.md)**: Evaluates prose based on Steven Pinker's style [[raw](https://raw.githubusercontent.com/danielmiessler/fabric/main/data/patterns/analyze_prose_pinker/system.md)]
 
 ### Data Analysis & Extraction
 
-- **extract_ideas**: Extracts key ideas as bullet points
-- **extract_insights**: Extracts powerful ideas from text
-- **extract_main_idea**: Extracts main idea and recommendation
-- **extract_core_message**: Extracts core message of text
-- **extract_primary_problem**: Identifies primary problem in text
-- **extract_primary_solution**: Identifies primary solution in text
-- **extract_recommendations**: Extracts practical recommendations
-- **export_data_as_csv**: Outputs data structures as CSV
-- **extract_wisdom**: Extracts insights on human flourishing, AI, etc.
-- **extract_controversial_ideas**: Extracts controversial statements
-- **extract_questions**: Extracts questions from conversations
+- **[extract_ideas](https://github.com/danielmiessler/fabric/blob/main/data/patterns/extract_ideas/system.md)**: Extracts key ideas as bullet points [[raw](https://raw.githubusercontent.com/danielmiessler/fabric/main/data/patterns/extract_ideas/system.md)]
+- **[extract_insights](https://github.com/danielmiessler/fabric/blob/main/data/patterns/extract_insights/system.md)**: Extracts powerful ideas from text [[raw](https://raw.githubusercontent.com/danielmiessler/fabric/main/data/patterns/extract_insights/system.md)]
+- **[extract_insights_dm](https://github.com/danielmiessler/fabric/blob/main/data/patterns/extract_insights_dm/system.md)**: Extracts insights (Daniel Miessler variant) [[raw](https://raw.githubusercontent.com/danielmiessler/fabric/main/data/patterns/extract_insights_dm/system.md)]
+- **[extract_main_idea](https://github.com/danielmiessler/fabric/blob/main/data/patterns/extract_main_idea/system.md)**: Extracts main idea and recommendation [[raw](https://raw.githubusercontent.com/danielmiessler/fabric/main/data/patterns/extract_main_idea/system.md)]
+- **[extract_core_message](https://github.com/danielmiessler/fabric/blob/main/data/patterns/extract_core_message/system.md)**: Extracts core message of text [[raw](https://raw.githubusercontent.com/danielmiessler/fabric/main/data/patterns/extract_core_message/system.md)]
+- **[extract_primary_problem](https://github.com/danielmiessler/fabric/blob/main/data/patterns/extract_primary_problem/system.md)**: Identifies primary problem in text [[raw](https://raw.githubusercontent.com/danielmiessler/fabric/main/data/patterns/extract_primary_problem/system.md)]
+- **[extract_primary_solution](https://github.com/danielmiessler/fabric/blob/main/data/patterns/extract_primary_solution/system.md)**: Identifies primary solution in text [[raw](https://raw.githubusercontent.com/danielmiessler/fabric/main/data/patterns/extract_primary_solution/system.md)]
+- **[extract_recommendations](https://github.com/danielmiessler/fabric/blob/main/data/patterns/extract_recommendations/system.md)**: Extracts practical recommendations [[raw](https://raw.githubusercontent.com/danielmiessler/fabric/main/data/patterns/extract_recommendations/system.md)]
+- **[extract_references](https://github.com/danielmiessler/fabric/blob/main/data/patterns/extract_references/system.md)**: Extracts references from content [[raw](https://raw.githubusercontent.com/danielmiessler/fabric/main/data/patterns/extract_references/system.md)]
+- **[extract_patterns](https://github.com/danielmiessler/fabric/blob/main/data/patterns/extract_patterns/system.md)**: Extracts patterns from content [[raw](https://raw.githubusercontent.com/danielmiessler/fabric/main/data/patterns/extract_patterns/system.md)]
+- **[extract_predictions](https://github.com/danielmiessler/fabric/blob/main/data/patterns/extract_predictions/system.md)**: Extracts predictions from content [[raw](https://raw.githubusercontent.com/danielmiessler/fabric/main/data/patterns/extract_predictions/system.md)]
+- **[export_data_as_csv](https://github.com/danielmiessler/fabric/blob/main/data/patterns/export_data_as_csv/system.md)**: Outputs data structures as CSV [[raw](https://raw.githubusercontent.com/danielmiessler/fabric/main/data/patterns/export_data_as_csv/system.md)]
+- **[extract_wisdom](https://github.com/danielmiessler/fabric/blob/main/data/patterns/extract_wisdom/system.md)**: Extracts insights on human flourishing, AI, etc. [[raw](https://raw.githubusercontent.com/danielmiessler/fabric/main/data/patterns/extract_wisdom/system.md)]
+- **[extract_wisdom_dm](https://github.com/danielmiessler/fabric/blob/main/data/patterns/extract_wisdom_dm/system.md)**: Extract wisdom (Daniel Miessler variant) [[raw](https://raw.githubusercontent.com/danielmiessler/fabric/main/data/patterns/extract_wisdom_dm/system.md)]
+- **[extract_wisdom_nometa](https://github.com/danielmiessler/fabric/blob/main/data/patterns/extract_wisdom_nometa/system.md)**: Extract wisdom without metadata [[raw](https://raw.githubusercontent.com/danielmiessler/fabric/main/data/patterns/extract_wisdom_nometa/system.md)]
+- **[extract_wisdom_agents](https://github.com/danielmiessler/fabric/blob/main/data/patterns/extract_wisdom_agents/system.md)**: Extract wisdom using agents [[raw](https://raw.githubusercontent.com/danielmiessler/fabric/main/data/patterns/extract_wisdom_agents/system.md)]
+- **[extract_wisdom_with_attribution](https://github.com/danielmiessler/fabric/blob/main/data/patterns/extract_wisdom_with_attribution/system.md)**: Extract wisdom with source attribution [[raw](https://raw.githubusercontent.com/danielmiessler/fabric/main/data/patterns/extract_wisdom_with_attribution/system.md)]
+- **[extract_article_wisdom](https://github.com/danielmiessler/fabric/blob/main/data/patterns/extract_article_wisdom/system.md)**: Extracts wisdom from articles [[raw](https://raw.githubusercontent.com/danielmiessler/fabric/main/data/patterns/extract_article_wisdom/system.md)]
+- **[extract_controversial_ideas](https://github.com/danielmiessler/fabric/blob/main/data/patterns/extract_controversial_ideas/system.md)**: Extracts controversial statements [[raw](https://raw.githubusercontent.com/danielmiessler/fabric/main/data/patterns/extract_controversial_ideas/system.md)]
+- **[extract_extraordinary_claims](https://github.com/danielmiessler/fabric/blob/main/data/patterns/extract_extraordinary_claims/system.md)**: Extracts extraordinary claims [[raw](https://raw.githubusercontent.com/danielmiessler/fabric/main/data/patterns/extract_extraordinary_claims/system.md)]
+- **[extract_questions](https://github.com/danielmiessler/fabric/blob/main/data/patterns/extract_questions/system.md)**: Extracts questions from conversations [[raw](https://raw.githubusercontent.com/danielmiessler/fabric/main/data/patterns/extract_questions/system.md)]
+- **[extract_all_quotes](https://github.com/danielmiessler/fabric/blob/main/data/patterns/extract_all_quotes/system.md)**: Extracts all quotes from content [[raw](https://raw.githubusercontent.com/danielmiessler/fabric/main/data/patterns/extract_all_quotes/system.md)]
+- **[extract_jokes](https://github.com/danielmiessler/fabric/blob/main/data/patterns/extract_jokes/system.md)**: Extracts jokes from content [[raw](https://raw.githubusercontent.com/danielmiessler/fabric/main/data/patterns/extract_jokes/system.md)]
+- **[extract_book_ideas](https://github.com/danielmiessler/fabric/blob/main/data/patterns/extract_book_ideas/system.md)**: Extracts ideas from books [[raw](https://raw.githubusercontent.com/danielmiessler/fabric/main/data/patterns/extract_book_ideas/system.md)]
+- **[extract_book_recommendations](https://github.com/danielmiessler/fabric/blob/main/data/patterns/extract_book_recommendations/system.md)**: Extracts book recommendations [[raw](https://raw.githubusercontent.com/danielmiessler/fabric/main/data/patterns/extract_book_recommendations/system.md)]
+- **[extract_business_ideas](https://github.com/danielmiessler/fabric/blob/main/data/patterns/extract_business_ideas/system.md)**: Extracts business ideas [[raw](https://raw.githubusercontent.com/danielmiessler/fabric/main/data/patterns/extract_business_ideas/system.md)]
+- **[extract_domains](https://github.com/danielmiessler/fabric/blob/main/data/patterns/extract_domains/system.md)**: Extracts domain names from content [[raw](https://raw.githubusercontent.com/danielmiessler/fabric/main/data/patterns/extract_domains/system.md)]
+- **[extract_alpha](https://github.com/danielmiessler/fabric/blob/main/data/patterns/extract_alpha/system.md)**: Extracts alpha/edge insights [[raw](https://raw.githubusercontent.com/danielmiessler/fabric/main/data/patterns/extract_alpha/system.md)]
+- **[extract_characters](https://github.com/danielmiessler/fabric/blob/main/data/patterns/extract_characters/system.md)**: Extracts characters from stories [[raw](https://raw.githubusercontent.com/danielmiessler/fabric/main/data/patterns/extract_characters/system.md)]
+- **[extract_main_activities](https://github.com/danielmiessler/fabric/blob/main/data/patterns/extract_main_activities/system.md)**: Extracts main activities from content [[raw](https://raw.githubusercontent.com/danielmiessler/fabric/main/data/patterns/extract_main_activities/system.md)]
+- **[extract_mcp_servers](https://github.com/danielmiessler/fabric/blob/main/data/patterns/extract_mcp_servers/system.md)**: Extracts MCP server information [[raw](https://raw.githubusercontent.com/danielmiessler/fabric/main/data/patterns/extract_mcp_servers/system.md)]
 
 ### Visualization & Organization
 
-- **create_mermaid_visualization**: Creates visualizations using Mermaid syntax
-- **create_mermaid_visualization_for_github**: Similar but GitHub-optimized
-- **create_visualization**: Creates visualizations using ASCII art
-- **create_idea_compass**: Organizes ideas by exploring definition and evidence
-- **create_markmap_visualization**: Transforms ideas into MarkMap visualizations
-- **create_recursive_outline**: Breaks down complex tasks hierarchically
-- **compare_and_contrast**: Compares items in a markdown table
+- **[create_mermaid_visualization](https://github.com/danielmiessler/fabric/blob/main/data/patterns/create_mermaid_visualization/system.md)**: Creates visualizations using Mermaid syntax [[raw](https://raw.githubusercontent.com/danielmiessler/fabric/main/data/patterns/create_mermaid_visualization/system.md)]
+- **[create_mermaid_visualization_for_github](https://github.com/danielmiessler/fabric/blob/main/data/patterns/create_mermaid_visualization_for_github/system.md)**: Creates GitHub-optimized Mermaid diagrams [[raw](https://raw.githubusercontent.com/danielmiessler/fabric/main/data/patterns/create_mermaid_visualization_for_github/system.md)]
+- **[create_visualization](https://github.com/danielmiessler/fabric/blob/main/data/patterns/create_visualization/system.md)**: Creates visualizations using ASCII art [[raw](https://raw.githubusercontent.com/danielmiessler/fabric/main/data/patterns/create_visualization/system.md)]
+- **[create_excalidraw_visualization](https://github.com/danielmiessler/fabric/blob/main/data/patterns/create_excalidraw_visualization/system.md)**: Creates Excalidraw visualizations [[raw](https://raw.githubusercontent.com/danielmiessler/fabric/main/data/patterns/create_excalidraw_visualization/system.md)]
+- **[create_investigation_visualization](https://github.com/danielmiessler/fabric/blob/main/data/patterns/create_investigation_visualization/system.md)**: Creates investigation visualizations [[raw](https://raw.githubusercontent.com/danielmiessler/fabric/main/data/patterns/create_investigation_visualization/system.md)]
+- **[create_idea_compass](https://github.com/danielmiessler/fabric/blob/main/data/patterns/create_idea_compass/system.md)**: Organizes ideas by exploring definition and evidence [[raw](https://raw.githubusercontent.com/danielmiessler/fabric/main/data/patterns/create_idea_compass/system.md)]
+- **[create_markmap_visualization](https://github.com/danielmiessler/fabric/blob/main/data/patterns/create_markmap_visualization/system.md)**: Transforms ideas into MarkMap visualizations [[raw](https://raw.githubusercontent.com/danielmiessler/fabric/main/data/patterns/create_markmap_visualization/system.md)]
+- **[create_conceptmap](https://github.com/danielmiessler/fabric/blob/main/data/patterns/create_conceptmap/system.md)**: Creates concept maps [[raw](https://raw.githubusercontent.com/danielmiessler/fabric/main/data/patterns/create_conceptmap/system.md)]
+- **[create_graph_from_input](https://github.com/danielmiessler/fabric/blob/main/data/patterns/create_graph_from_input/system.md)**: Creates graphs from input data [[raw](https://raw.githubusercontent.com/danielmiessler/fabric/main/data/patterns/create_graph_from_input/system.md)]
+- **[create_recursive_outline](https://github.com/danielmiessler/fabric/blob/main/data/patterns/create_recursive_outline/system.md)**: Breaks down complex tasks hierarchically [[raw](https://raw.githubusercontent.com/danielmiessler/fabric/main/data/patterns/create_recursive_outline/system.md)]
+- **[compare_and_contrast](https://github.com/danielmiessler/fabric/blob/main/data/patterns/compare_and_contrast/system.md)**: Compares items in a markdown table [[raw](https://raw.githubusercontent.com/danielmiessler/fabric/main/data/patterns/compare_and_contrast/system.md)]
+- **[create_tags](https://github.com/danielmiessler/fabric/blob/main/data/patterns/create_tags/system.md)**: Identifies tags from content [[raw](https://raw.githubusercontent.com/danielmiessler/fabric/main/data/patterns/create_tags/system.md)]
+- **[label_and_rate](https://github.com/danielmiessler/fabric/blob/main/data/patterns/label_and_rate/system.md)**: Labels and rates content [[raw](https://raw.githubusercontent.com/danielmiessler/fabric/main/data/patterns/label_and_rate/system.md)]
+- **[md_callout](https://github.com/danielmiessler/fabric/blob/main/data/patterns/md_callout/system.md)**: Creates markdown callouts [[raw](https://raw.githubusercontent.com/danielmiessler/fabric/main/data/patterns/md_callout/system.md)]
+- **[apply_ul_tags](https://github.com/danielmiessler/fabric/blob/main/data/patterns/apply_ul_tags/system.md)**: Applies UL tags to content [[raw](https://raw.githubusercontent.com/danielmiessler/fabric/main/data/patterns/apply_ul_tags/system.md)]
 
 ### General Problem Solving
 
-- **solve_with_cot**: Provides step-by-step chain of thought reasoning
-- **raw_query**: Analyzes input to produce best possible result
-- **rate_value**: Produces optimal output based on deep analysis
-- **create_better_frame**: Analyzes different frames of interpreting reality
-- **find_logical_fallacies**: Identifies fallacies in arguments
-- **explain_math**: Explains mathematical concepts clearly
-- **ai**: Interprets questions and provides concise answers
-- **suggest_pattern**: Recommends appropriate fabric patterns based on input
+- **[raw_query](https://github.com/danielmiessler/fabric/blob/main/data/patterns/raw_query/system.md)**: Analyzes input to produce best possible result [[raw](https://raw.githubusercontent.com/danielmiessler/fabric/main/data/patterns/raw_query/system.md)]
+- **[rate_value](https://github.com/danielmiessler/fabric/blob/main/data/patterns/rate_value/system.md)**: Produces optimal output based on deep analysis [[raw](https://raw.githubusercontent.com/danielmiessler/fabric/main/data/patterns/rate_value/system.md)]
+- **[rate_content](https://github.com/danielmiessler/fabric/blob/main/data/patterns/rate_content/system.md)**: Rates content quality [[raw](https://raw.githubusercontent.com/danielmiessler/fabric/main/data/patterns/rate_content/system.md)]
+- **[rate_ai_response](https://github.com/danielmiessler/fabric/blob/main/data/patterns/rate_ai_response/system.md)**: Rates AI responses [[raw](https://raw.githubusercontent.com/danielmiessler/fabric/main/data/patterns/rate_ai_response/system.md)]
+- **[rate_ai_result](https://github.com/danielmiessler/fabric/blob/main/data/patterns/rate_ai_result/system.md)**: Rates AI results [[raw](https://raw.githubusercontent.com/danielmiessler/fabric/main/data/patterns/rate_ai_result/system.md)]
+- **[judge_output](https://github.com/danielmiessler/fabric/blob/main/data/patterns/judge_output/system.md)**: Judges output quality [[raw](https://raw.githubusercontent.com/danielmiessler/fabric/main/data/patterns/judge_output/system.md)]
+- **[create_better_frame](https://github.com/danielmiessler/fabric/blob/main/data/patterns/create_better_frame/system.md)**: Analyzes different frames of interpreting reality [[raw](https://raw.githubusercontent.com/danielmiessler/fabric/main/data/patterns/create_better_frame/system.md)]
+- **[find_logical_fallacies](https://github.com/danielmiessler/fabric/blob/main/data/patterns/find_logical_fallacies/system.md)**: Identifies fallacies in arguments [[raw](https://raw.githubusercontent.com/danielmiessler/fabric/main/data/patterns/find_logical_fallacies/system.md)]
+- **[find_hidden_message](https://github.com/danielmiessler/fabric/blob/main/data/patterns/find_hidden_message/system.md)**: Finds hidden messages in content [[raw](https://raw.githubusercontent.com/danielmiessler/fabric/main/data/patterns/find_hidden_message/system.md)]
+- **[explain_math](https://github.com/danielmiessler/fabric/blob/main/data/patterns/explain_math/system.md)**: Explains mathematical concepts clearly [[raw](https://raw.githubusercontent.com/danielmiessler/fabric/main/data/patterns/explain_math/system.md)]
+- **[ai](https://github.com/danielmiessler/fabric/blob/main/data/patterns/ai/system.md)**: Interprets questions and provides concise answers [[raw](https://raw.githubusercontent.com/danielmiessler/fabric/main/data/patterns/ai/system.md)]
+- **[suggest_pattern](https://github.com/danielmiessler/fabric/blob/main/data/patterns/suggest_pattern/system.md)**: Recommends appropriate fabric patterns based on input [[raw](https://raw.githubusercontent.com/danielmiessler/fabric/main/data/patterns/suggest_pattern/system.md)]
+- **[create_pattern](https://github.com/danielmiessler/fabric/blob/main/data/patterns/create_pattern/system.md)**: Creates new fabric patterns [[raw](https://raw.githubusercontent.com/danielmiessler/fabric/main/data/patterns/create_pattern/system.md)]
+- **[create_golden_rules](https://github.com/danielmiessler/fabric/blob/main/data/patterns/create_golden_rules/system.md)**: Creates golden rules from content [[raw](https://raw.githubusercontent.com/danielmiessler/fabric/main/data/patterns/create_golden_rules/system.md)]
+- **[create_prediction_block](https://github.com/danielmiessler/fabric/blob/main/data/patterns/create_prediction_block/system.md)**: Creates prediction blocks [[raw](https://raw.githubusercontent.com/danielmiessler/fabric/main/data/patterns/create_prediction_block/system.md)]
+- **[create_mnemonic_phrases](https://github.com/danielmiessler/fabric/blob/main/data/patterns/create_mnemonic_phrases/system.md)**: Creates mnemonic phrases for memorization [[raw](https://raw.githubusercontent.com/danielmiessler/fabric/main/data/patterns/create_mnemonic_phrases/system.md)]
+- **[recommend_artists](https://github.com/danielmiessler/fabric/blob/main/data/patterns/recommend_artists/system.md)**: Recommends artists based on preferences [[raw](https://raw.githubusercontent.com/danielmiessler/fabric/main/data/patterns/recommend_artists/system.md)]
+- **[suggest_gt_command](https://github.com/danielmiessler/fabric/blob/main/data/patterns/suggest_gt_command/system.md)**: Suggests GT commands [[raw](https://raw.githubusercontent.com/danielmiessler/fabric/main/data/patterns/suggest_gt_command/system.md)]
+- **[suggest_moltbot_command](https://github.com/danielmiessler/fabric/blob/main/data/patterns/suggest_moltbot_command/system.md)**: Suggests Moltbot commands [[raw](https://raw.githubusercontent.com/danielmiessler/fabric/main/data/patterns/suggest_moltbot_command/system.md)]
 
 ---
 
@@ -76,127 +124,184 @@ These patterns can be used across various domains and aren't specific to particu
 
 ### Software Development & Engineering
 
-- **create_coding_project**: Generates wireframes and starter code
-- **create_design_document**: Creates detailed system design documents
-- **create_prd**: Creates Product Requirements Documents
-- **create_user_story**: Writes technical user stories
-- **agility_story**: Generates user stories and acceptance criteria
-- **create_git_diff_commit**: Generates Git commands and commit messages
-- **explain_code**: Explains code and security tool output
-- **coding_master**: Explains coding concepts to beginners
-- **summarize_git_changes**: Summarizes recent project updates
-- **summarize_git_diff**: Summarizes Git diff changes
-- **summarize_pull-requests**: Summarizes pull requests
-- **write_pull-request**: Drafts detailed pull request descriptions
-- **review_design**: Reviews and analyzes architecture design
-- **refine_design_document**: Refines design documents based on reviews
-- **explain_project**: Summarizes project documentation
+- **[create_coding_project](https://github.com/danielmiessler/fabric/blob/main/data/patterns/create_coding_project/system.md)**: Generates wireframes and starter code [[raw](https://raw.githubusercontent.com/danielmiessler/fabric/main/data/patterns/create_coding_project/system.md)]
+- **[create_coding_feature](https://github.com/danielmiessler/fabric/blob/main/data/patterns/create_coding_feature/system.md)**: Creates coding features [[raw](https://raw.githubusercontent.com/danielmiessler/fabric/main/data/patterns/create_coding_feature/system.md)]
+- **[create_design_document](https://github.com/danielmiessler/fabric/blob/main/data/patterns/create_design_document/system.md)**: Creates detailed system design documents [[raw](https://raw.githubusercontent.com/danielmiessler/fabric/main/data/patterns/create_design_document/system.md)]
+- **[create_design_system](https://github.com/danielmiessler/fabric/blob/main/data/patterns/create_design_system/system.md)**: Creates design systems [[raw](https://raw.githubusercontent.com/danielmiessler/fabric/main/data/patterns/create_design_system/system.md)]
+- **[create_prd](https://github.com/danielmiessler/fabric/blob/main/data/patterns/create_prd/system.md)**: Creates Product Requirements Documents [[raw](https://raw.githubusercontent.com/danielmiessler/fabric/main/data/patterns/create_prd/system.md)]
+- **[create_user_story](https://github.com/danielmiessler/fabric/blob/main/data/patterns/create_user_story/system.md)**: Writes technical user stories [[raw](https://raw.githubusercontent.com/danielmiessler/fabric/main/data/patterns/create_user_story/system.md)]
+- **[agility_story](https://github.com/danielmiessler/fabric/blob/main/data/patterns/agility_story/system.md)**: Generates user stories and acceptance criteria [[raw](https://raw.githubusercontent.com/danielmiessler/fabric/main/data/patterns/agility_story/system.md)]
+- **[create_git_diff_commit](https://github.com/danielmiessler/fabric/blob/main/data/patterns/create_git_diff_commit/system.md)**: Generates Git commands and commit messages [[raw](https://raw.githubusercontent.com/danielmiessler/fabric/main/data/patterns/create_git_diff_commit/system.md)]
+- **[explain_code](https://github.com/danielmiessler/fabric/blob/main/data/patterns/explain_code/system.md)**: Explains code and security tool output [[raw](https://raw.githubusercontent.com/danielmiessler/fabric/main/data/patterns/explain_code/system.md)]
+- **[review_code](https://github.com/danielmiessler/fabric/blob/main/data/patterns/review_code/system.md)**: Reviews code for issues [[raw](https://raw.githubusercontent.com/danielmiessler/fabric/main/data/patterns/review_code/system.md)]
+- **[coding_master](https://github.com/danielmiessler/fabric/blob/main/data/patterns/coding_master/system.md)**: Explains coding concepts to beginners [[raw](https://raw.githubusercontent.com/danielmiessler/fabric/main/data/patterns/coding_master/system.md)]
+- **[generate_code_rules](https://github.com/danielmiessler/fabric/blob/main/data/patterns/generate_code_rules/system.md)**: Generates code rules [[raw](https://raw.githubusercontent.com/danielmiessler/fabric/main/data/patterns/generate_code_rules/system.md)]
+- **[summarize_git_changes](https://github.com/danielmiessler/fabric/blob/main/data/patterns/summarize_git_changes/system.md)**: Summarizes recent project updates [[raw](https://raw.githubusercontent.com/danielmiessler/fabric/main/data/patterns/summarize_git_changes/system.md)]
+- **[summarize_git_diff](https://github.com/danielmiessler/fabric/blob/main/data/patterns/summarize_git_diff/system.md)**: Summarizes Git diff changes [[raw](https://raw.githubusercontent.com/danielmiessler/fabric/main/data/patterns/summarize_git_diff/system.md)]
+- **[summarize_pull-requests](https://github.com/danielmiessler/fabric/blob/main/data/patterns/summarize_pull-requests/system.md)**: Summarizes pull requests [[raw](https://raw.githubusercontent.com/danielmiessler/fabric/main/data/patterns/summarize_pull-requests/system.md)]
+- **[write_pull-request](https://github.com/danielmiessler/fabric/blob/main/data/patterns/write_pull-request/system.md)**: Drafts detailed pull request descriptions [[raw](https://raw.githubusercontent.com/danielmiessler/fabric/main/data/patterns/write_pull-request/system.md)]
+- **[review_design](https://github.com/danielmiessler/fabric/blob/main/data/patterns/review_design/system.md)**: Reviews and analyzes architecture design [[raw](https://raw.githubusercontent.com/danielmiessler/fabric/main/data/patterns/review_design/system.md)]
+- **[refine_design_document](https://github.com/danielmiessler/fabric/blob/main/data/patterns/refine_design_document/system.md)**: Refines design documents based on reviews [[raw](https://raw.githubusercontent.com/danielmiessler/fabric/main/data/patterns/refine_design_document/system.md)]
+- **[explain_project](https://github.com/danielmiessler/fabric/blob/main/data/patterns/explain_project/system.md)**: Summarizes project documentation [[raw](https://raw.githubusercontent.com/danielmiessler/fabric/main/data/patterns/explain_project/system.md)]
+- **[analyze_terraform_plan](https://github.com/danielmiessler/fabric/blob/main/data/patterns/analyze_terraform_plan/system.md)**: Analyzes Terraform plans [[raw](https://raw.githubusercontent.com/danielmiessler/fabric/main/data/patterns/analyze_terraform_plan/system.md)]
+- **[recommend_pipeline_upgrades](https://github.com/danielmiessler/fabric/blob/main/data/patterns/recommend_pipeline_upgrades/system.md)**: Recommends pipeline upgrades [[raw](https://raw.githubusercontent.com/danielmiessler/fabric/main/data/patterns/recommend_pipeline_upgrades/system.md)]
+- **[create_bd_issue](https://github.com/danielmiessler/fabric/blob/main/data/patterns/create_bd_issue/system.md)**: Creates BD issues [[raw](https://raw.githubusercontent.com/danielmiessler/fabric/main/data/patterns/create_bd_issue/system.md)]
+- **[extract_bd_ideas](https://github.com/danielmiessler/fabric/blob/main/data/patterns/extract_bd_ideas/system.md)**: Extracts BD ideas [[raw](https://raw.githubusercontent.com/danielmiessler/fabric/main/data/patterns/extract_bd_ideas/system.md)]
+- **[extract_algorithm_update_recommendations](https://github.com/danielmiessler/fabric/blob/main/data/patterns/extract_algorithm_update_recommendations/system.md)**: Extracts algorithm update recommendations [[raw](https://raw.githubusercontent.com/danielmiessler/fabric/main/data/patterns/extract_algorithm_update_recommendations/system.md)]
 
 ### Cybersecurity & IT
 
-- **analyse_incident**: Extracts details from cybersecurity breach articles
-- **analyse_logs**: Analyzes server log files to identify issues
-- **analyse_malware**: Analyzes malware details and indicators
-- **analyze_threat_report**: Extracts insights from cybersecurity reports
-- **analyse_threat_report_cmds**: Extracts cybersecurity commands
-- **analyse_threat_report_trends**: Extracts trends from threat reports
-- **analyse_email_headers**: Analyzes email security headers
-- **create_network_threat_landscape**: Analyzes network security threats
-- **create_security_update**: Creates concise security updates
-- **create_sigma_rules**: Creates Sigma detection rules
-- **create_stride_threat_model**: Creates STRIDE-based threat models
-- **create_threat_scenarios**: Identifies attack methods
-- **extract_poc**: Extracts proof of concept URLs from security reports
-- **write_hackerone_report**: Generates bug bounty reports
-- **write_nuclei_template_rule**: Generates Nuclei templates
-- **write_semgrep_rule**: Creates Semgrep rules
-- **create_command**: Helps determine parameters for penetration testing tools
-- **create_report_finding**: Creates security finding reports
-- **improve_report_finding**: Improves security findings
-- **ask_secure_by_design_questions**: Generates security-focused questions
+- **[analyze_incident](https://github.com/danielmiessler/fabric/blob/main/data/patterns/analyze_incident/system.md)**: Extracts details from cybersecurity breach articles [[raw](https://raw.githubusercontent.com/danielmiessler/fabric/main/data/patterns/analyze_incident/system.md)]
+- **[analyze_logs](https://github.com/danielmiessler/fabric/blob/main/data/patterns/analyze_logs/system.md)**: Analyzes server log files to identify issues [[raw](https://raw.githubusercontent.com/danielmiessler/fabric/main/data/patterns/analyze_logs/system.md)]
+- **[analyze_malware](https://github.com/danielmiessler/fabric/blob/main/data/patterns/analyze_malware/system.md)**: Analyzes malware details and indicators [[raw](https://raw.githubusercontent.com/danielmiessler/fabric/main/data/patterns/analyze_malware/system.md)]
+- **[analyze_threat_report](https://github.com/danielmiessler/fabric/blob/main/data/patterns/analyze_threat_report/system.md)**: Extracts insights from cybersecurity reports [[raw](https://raw.githubusercontent.com/danielmiessler/fabric/main/data/patterns/analyze_threat_report/system.md)]
+- **[analyze_threat_report_cmds](https://github.com/danielmiessler/fabric/blob/main/data/patterns/analyze_threat_report_cmds/system.md)**: Extracts cybersecurity commands [[raw](https://raw.githubusercontent.com/danielmiessler/fabric/main/data/patterns/analyze_threat_report_cmds/system.md)]
+- **[analyze_threat_report_trends](https://github.com/danielmiessler/fabric/blob/main/data/patterns/analyze_threat_report_trends/system.md)**: Extracts trends from threat reports [[raw](https://raw.githubusercontent.com/danielmiessler/fabric/main/data/patterns/analyze_threat_report_trends/system.md)]
+- **[analyze_email_headers](https://github.com/danielmiessler/fabric/blob/main/data/patterns/analyze_email_headers/system.md)**: Analyzes email security headers [[raw](https://raw.githubusercontent.com/danielmiessler/fabric/main/data/patterns/analyze_email_headers/system.md)]
+- **[create_network_threat_landscape](https://github.com/danielmiessler/fabric/blob/main/data/patterns/create_network_threat_landscape/system.md)**: Analyzes network security threats [[raw](https://raw.githubusercontent.com/danielmiessler/fabric/main/data/patterns/create_network_threat_landscape/system.md)]
+- **[create_security_update](https://github.com/danielmiessler/fabric/blob/main/data/patterns/create_security_update/system.md)**: Creates concise security updates [[raw](https://raw.githubusercontent.com/danielmiessler/fabric/main/data/patterns/create_security_update/system.md)]
+- **[create_cyber_summary](https://github.com/danielmiessler/fabric/blob/main/data/patterns/create_cyber_summary/system.md)**: Creates cybersecurity summaries [[raw](https://raw.githubusercontent.com/danielmiessler/fabric/main/data/patterns/create_cyber_summary/system.md)]
+- **[create_sigma_rules](https://github.com/danielmiessler/fabric/blob/main/data/patterns/create_sigma_rules/system.md)**: Creates Sigma detection rules [[raw](https://raw.githubusercontent.com/danielmiessler/fabric/main/data/patterns/create_sigma_rules/system.md)]
+- **[create_stride_threat_model](https://github.com/danielmiessler/fabric/blob/main/data/patterns/create_stride_threat_model/system.md)**: Creates STRIDE-based threat models [[raw](https://raw.githubusercontent.com/danielmiessler/fabric/main/data/patterns/create_stride_threat_model/system.md)]
+- **[create_threat_scenarios](https://github.com/danielmiessler/fabric/blob/main/data/patterns/create_threat_scenarios/system.md)**: Identifies attack methods [[raw](https://raw.githubusercontent.com/danielmiessler/fabric/main/data/patterns/create_threat_scenarios/system.md)]
+- **[extract_poc](https://github.com/danielmiessler/fabric/blob/main/data/patterns/extract_poc/system.md)**: Extracts proof of concept URLs from security reports [[raw](https://raw.githubusercontent.com/danielmiessler/fabric/main/data/patterns/extract_poc/system.md)]
+- **[extract_ctf_writeup](https://github.com/danielmiessler/fabric/blob/main/data/patterns/extract_ctf_writeup/system.md)**: Extracts CTF writeup details [[raw](https://raw.githubusercontent.com/danielmiessler/fabric/main/data/patterns/extract_ctf_writeup/system.md)]
+- **[write_hackerone_report](https://github.com/danielmiessler/fabric/blob/main/data/patterns/write_hackerone_report/system.md)**: Generates bug bounty reports [[raw](https://raw.githubusercontent.com/danielmiessler/fabric/main/data/patterns/write_hackerone_report/system.md)]
+- **[write_nuclei_template_rule](https://github.com/danielmiessler/fabric/blob/main/data/patterns/write_nuclei_template_rule/system.md)**: Generates Nuclei templates [[raw](https://raw.githubusercontent.com/danielmiessler/fabric/main/data/patterns/write_nuclei_template_rule/system.md)]
+- **[write_semgrep_rule](https://github.com/danielmiessler/fabric/blob/main/data/patterns/write_semgrep_rule/system.md)**: Creates Semgrep rules [[raw](https://raw.githubusercontent.com/danielmiessler/fabric/main/data/patterns/write_semgrep_rule/system.md)]
+- **[create_command](https://github.com/danielmiessler/fabric/blob/main/data/patterns/create_command/system.md)**: Helps determine parameters for penetration testing tools [[raw](https://raw.githubusercontent.com/danielmiessler/fabric/main/data/patterns/create_command/system.md)]
+- **[create_report_finding](https://github.com/danielmiessler/fabric/blob/main/data/patterns/create_report_finding/system.md)**: Creates security finding reports [[raw](https://raw.githubusercontent.com/danielmiessler/fabric/main/data/patterns/create_report_finding/system.md)]
+- **[improve_report_finding](https://github.com/danielmiessler/fabric/blob/main/data/patterns/improve_report_finding/system.md)**: Improves security findings [[raw](https://raw.githubusercontent.com/danielmiessler/fabric/main/data/patterns/improve_report_finding/system.md)]
+- **[ask_secure_by_design_questions](https://github.com/danielmiessler/fabric/blob/main/data/patterns/ask_secure_by_design_questions/system.md)**: Generates security-focused questions [[raw](https://raw.githubusercontent.com/danielmiessler/fabric/main/data/patterns/ask_secure_by_design_questions/system.md)]
+- **[greybeard_secure_prompt_engineer](https://github.com/danielmiessler/fabric/blob/main/data/patterns/greybeard_secure_prompt_engineer/system.md)**: Security-focused prompt engineering [[raw](https://raw.githubusercontent.com/danielmiessler/fabric/main/data/patterns/greybeard_secure_prompt_engineer/system.md)]
 
 ### Academic & Research
 
-- **create_academic_paper**: Generates academic papers in LaTeX format
-- **analyse_paper**: Analyzes research papers
-- **summarize_paper**: Summarizes academic papers
-- **create_reading_plan**: Generates review questions and reading plans
-- **to_flashcards**: Creates Anki flashcards from text
-- **create_quiz**: Creates reading plans and quizzes
-- **analyse_answers**: Evaluates quiz answers
-- **explain_terms**: Produces glossaries of advanced terms
-- **write_latex**: Generates LaTeX code
+- **[create_academic_paper](https://github.com/danielmiessler/fabric/blob/main/data/patterns/create_academic_paper/system.md)**: Generates academic papers in LaTeX format [[raw](https://raw.githubusercontent.com/danielmiessler/fabric/main/data/patterns/create_academic_paper/system.md)]
+- **[analyze_paper](https://github.com/danielmiessler/fabric/blob/main/data/patterns/analyze_paper/system.md)**: Analyzes research papers [[raw](https://raw.githubusercontent.com/danielmiessler/fabric/main/data/patterns/analyze_paper/system.md)]
+- **[analyze_paper_simple](https://github.com/danielmiessler/fabric/blob/main/data/patterns/analyze_paper_simple/system.md)**: Simple research paper analysis [[raw](https://raw.githubusercontent.com/danielmiessler/fabric/main/data/patterns/analyze_paper_simple/system.md)]
+- **[summarize_paper](https://github.com/danielmiessler/fabric/blob/main/data/patterns/summarize_paper/system.md)**: Summarizes academic papers [[raw](https://raw.githubusercontent.com/danielmiessler/fabric/main/data/patterns/summarize_paper/system.md)]
+- **[create_reading_plan](https://github.com/danielmiessler/fabric/blob/main/data/patterns/create_reading_plan/system.md)**: Generates review questions and reading plans [[raw](https://raw.githubusercontent.com/danielmiessler/fabric/main/data/patterns/create_reading_plan/system.md)]
+- **[to_flashcards](https://github.com/danielmiessler/fabric/blob/main/data/patterns/to_flashcards/system.md)**: Creates Anki flashcards from text [[raw](https://raw.githubusercontent.com/danielmiessler/fabric/main/data/patterns/to_flashcards/system.md)]
+- **[create_flash_cards](https://github.com/danielmiessler/fabric/blob/main/data/patterns/create_flash_cards/system.md)**: Creates flash cards [[raw](https://raw.githubusercontent.com/danielmiessler/fabric/main/data/patterns/create_flash_cards/system.md)]
+- **[create_quiz](https://github.com/danielmiessler/fabric/blob/main/data/patterns/create_quiz/system.md)**: Creates reading plans and quizzes [[raw](https://raw.githubusercontent.com/danielmiessler/fabric/main/data/patterns/create_quiz/system.md)]
+- **[analyze_answers](https://github.com/danielmiessler/fabric/blob/main/data/patterns/analyze_answers/system.md)**: Evaluates quiz answers [[raw](https://raw.githubusercontent.com/danielmiessler/fabric/main/data/patterns/analyze_answers/system.md)]
+- **[explain_terms](https://github.com/danielmiessler/fabric/blob/main/data/patterns/explain_terms/system.md)**: Produces glossaries of advanced terms [[raw](https://raw.githubusercontent.com/danielmiessler/fabric/main/data/patterns/explain_terms/system.md)]
+- **[write_latex](https://github.com/danielmiessler/fabric/blob/main/data/patterns/write_latex/system.md)**: Generates LaTeX code [[raw](https://raw.githubusercontent.com/danielmiessler/fabric/main/data/patterns/write_latex/system.md)]
 
 ### Business & Professional
 
-- **analyse_candidates**: Compares political candidates
-- **analyse_cfp_submission**: Reviews conference submissions
-- **analyse_claims**: Analyzes truth claims with evidence
-- **analyse_comments**: Evaluates internet comments
-- **analyse_debate**: Rates debates with analysis
-- **summarize_debate**: Summarizes debates and arguments
-- **analyze_product_feedback**: Analyzes user feedback
-- **analyze_sales_call**: Rates sales call performance
-- **answer_interview_question**: Generates interview responses
-- **analyze_risk**: Conducts risk assessments
-- **check_agreement**: Analyzes contracts and agreements
-- **create_keynote**: Creates TED-style presentations
-- **create_ttrc_graph**: Creates vulnerability remediation graphs
-- **create_ttrc_narrative**: Creates narratives about vulnerability metrics
-- **create_7s_strategy**: Prepares strategy documents
-- **create_hormozi_offer**: Creates business offers
+- **[analyze_candidates](https://github.com/danielmiessler/fabric/blob/main/data/patterns/analyze_candidates/system.md)**: Compares political candidates [[raw](https://raw.githubusercontent.com/danielmiessler/fabric/main/data/patterns/analyze_candidates/system.md)]
+- **[analyze_cfp_submission](https://github.com/danielmiessler/fabric/blob/main/data/patterns/analyze_cfp_submission/system.md)**: Reviews conference submissions [[raw](https://raw.githubusercontent.com/danielmiessler/fabric/main/data/patterns/analyze_cfp_submission/system.md)]
+- **[analyze_claims](https://github.com/danielmiessler/fabric/blob/main/data/patterns/analyze_claims/system.md)**: Analyzes truth claims with evidence [[raw](https://raw.githubusercontent.com/danielmiessler/fabric/main/data/patterns/analyze_claims/system.md)]
+- **[analyze_comments](https://github.com/danielmiessler/fabric/blob/main/data/patterns/analyze_comments/system.md)**: Evaluates internet comments [[raw](https://raw.githubusercontent.com/danielmiessler/fabric/main/data/patterns/analyze_comments/system.md)]
+- **[analyze_debate](https://github.com/danielmiessler/fabric/blob/main/data/patterns/analyze_debate/system.md)**: Rates debates with analysis [[raw](https://raw.githubusercontent.com/danielmiessler/fabric/main/data/patterns/analyze_debate/system.md)]
+- **[summarize_debate](https://github.com/danielmiessler/fabric/blob/main/data/patterns/summarize_debate/system.md)**: Summarizes debates and arguments [[raw](https://raw.githubusercontent.com/danielmiessler/fabric/main/data/patterns/summarize_debate/system.md)]
+- **[analyze_product_feedback](https://github.com/danielmiessler/fabric/blob/main/data/patterns/analyze_product_feedback/system.md)**: Analyzes user feedback [[raw](https://raw.githubusercontent.com/danielmiessler/fabric/main/data/patterns/analyze_product_feedback/system.md)]
+- **[extract_product_features](https://github.com/danielmiessler/fabric/blob/main/data/patterns/extract_product_features/system.md)**: Extracts product features [[raw](https://raw.githubusercontent.com/danielmiessler/fabric/main/data/patterns/extract_product_features/system.md)]
+- **[analyze_sales_call](https://github.com/danielmiessler/fabric/blob/main/data/patterns/analyze_sales_call/system.md)**: Rates sales call performance [[raw](https://raw.githubusercontent.com/danielmiessler/fabric/main/data/patterns/analyze_sales_call/system.md)]
+- **[answer_interview_question](https://github.com/danielmiessler/fabric/blob/main/data/patterns/answer_interview_question/system.md)**: Generates interview responses [[raw](https://raw.githubusercontent.com/danielmiessler/fabric/main/data/patterns/answer_interview_question/system.md)]
+- **[analyze_risk](https://github.com/danielmiessler/fabric/blob/main/data/patterns/analyze_risk/system.md)**: Conducts risk assessments [[raw](https://raw.githubusercontent.com/danielmiessler/fabric/main/data/patterns/analyze_risk/system.md)]
+- **[check_agreement](https://github.com/danielmiessler/fabric/blob/main/data/patterns/check_agreement/system.md)**: Analyzes contracts and agreements [[raw](https://raw.githubusercontent.com/danielmiessler/fabric/main/data/patterns/check_agreement/system.md)]
+- **[create_keynote](https://github.com/danielmiessler/fabric/blob/main/data/patterns/create_keynote/system.md)**: Creates TED-style presentations [[raw](https://raw.githubusercontent.com/danielmiessler/fabric/main/data/patterns/create_keynote/system.md)]
+- **[create_loe_document](https://github.com/danielmiessler/fabric/blob/main/data/patterns/create_loe_document/system.md)**: Creates level of effort documents [[raw](https://raw.githubusercontent.com/danielmiessler/fabric/main/data/patterns/create_loe_document/system.md)]
+- **[create_ttrc_graph](https://github.com/danielmiessler/fabric/blob/main/data/patterns/create_ttrc_graph/system.md)**: Creates vulnerability remediation graphs [[raw](https://raw.githubusercontent.com/danielmiessler/fabric/main/data/patterns/create_ttrc_graph/system.md)]
+- **[create_ttrc_narrative](https://github.com/danielmiessler/fabric/blob/main/data/patterns/create_ttrc_narrative/system.md)**: Creates narratives about vulnerability metrics [[raw](https://raw.githubusercontent.com/danielmiessler/fabric/main/data/patterns/create_ttrc_narrative/system.md)]
+- **[prepare_7s_strategy](https://github.com/danielmiessler/fabric/blob/main/data/patterns/prepare_7s_strategy/system.md)**: Prepares strategy documents [[raw](https://raw.githubusercontent.com/danielmiessler/fabric/main/data/patterns/prepare_7s_strategy/system.md)]
+- **[create_hormozi_offer](https://github.com/danielmiessler/fabric/blob/main/data/patterns/create_hormozi_offer/system.md)**: Creates business offers [[raw](https://raw.githubusercontent.com/danielmiessler/fabric/main/data/patterns/create_hormozi_offer/system.md)]
+- **[create_upgrade_pack](https://github.com/danielmiessler/fabric/blob/main/data/patterns/create_upgrade_pack/system.md)**: Creates upgrade packs [[raw](https://raw.githubusercontent.com/danielmiessler/fabric/main/data/patterns/create_upgrade_pack/system.md)]
+- **[concall_summary](https://github.com/danielmiessler/fabric/blob/main/data/patterns/concall_summary/system.md)**: Summarizes conference calls [[raw](https://raw.githubusercontent.com/danielmiessler/fabric/main/data/patterns/concall_summary/system.md)]
+- **[analyze_bill](https://github.com/danielmiessler/fabric/blob/main/data/patterns/analyze_bill/system.md)**: Analyzes bills and legislation [[raw](https://raw.githubusercontent.com/danielmiessler/fabric/main/data/patterns/analyze_bill/system.md)]
+- **[analyze_bill_short](https://github.com/danielmiessler/fabric/blob/main/data/patterns/analyze_bill_short/system.md)**: Short bill analysis [[raw](https://raw.githubusercontent.com/danielmiessler/fabric/main/data/patterns/analyze_bill_short/system.md)]
+- **[analyze_discord_structure](https://github.com/danielmiessler/fabric/blob/main/data/patterns/analyze_discord_structure/system.md)**: Analyzes Discord server structure [[raw](https://raw.githubusercontent.com/danielmiessler/fabric/main/data/patterns/analyze_discord_structure/system.md)]
 
 ### Content Analysis & Media
 
-- **analyze_interviewer_techniques**: Analyzes interviewer techniques
-- **analyze_personality**: Performs psychological analysis
-- **analyze_presentation**: Reviews presentations
-- **extract_song_meaning**: Analyzes song meanings
-- **extract_videoid**: Extracts video IDs from URLs
-- **extract_latest_video**: Extracts latest YouTube video URLs
-- **get_youtube_rss**: Returns RSS URLs for YouTube channels
-- **get_wow_per_minute**: Determines content's "wow-factor"
-- **summarize_lecture**: Extracts topics from lecture transcripts
-- **create_video_chapters**: Extracts topics and timestamps
-- **extract_instructions**: Extracts instructions from video transcripts
-- **youtube_summary**: Creates timestamped video summaries
-- **create_show_intro**: Creates intros for podcasts
-- **extract_sponsors**: Extracts sponsors from transcripts
+- **[analyze_interviewer_techniques](https://github.com/danielmiessler/fabric/blob/main/data/patterns/analyze_interviewer_techniques/system.md)**: Analyzes interviewer techniques [[raw](https://raw.githubusercontent.com/danielmiessler/fabric/main/data/patterns/analyze_interviewer_techniques/system.md)]
+- **[analyze_personality](https://github.com/danielmiessler/fabric/blob/main/data/patterns/analyze_personality/system.md)**: Performs psychological analysis [[raw](https://raw.githubusercontent.com/danielmiessler/fabric/main/data/patterns/analyze_personality/system.md)]
+- **[analyze_presentation](https://github.com/danielmiessler/fabric/blob/main/data/patterns/analyze_presentation/system.md)**: Reviews presentations [[raw](https://raw.githubusercontent.com/danielmiessler/fabric/main/data/patterns/analyze_presentation/system.md)]
+- **[extract_song_meaning](https://github.com/danielmiessler/fabric/blob/main/data/patterns/extract_song_meaning/system.md)**: Analyzes song meanings [[raw](https://raw.githubusercontent.com/danielmiessler/fabric/main/data/patterns/extract_song_meaning/system.md)]
+- **[extract_videoid](https://github.com/danielmiessler/fabric/blob/main/data/patterns/extract_videoid/system.md)**: Extracts video IDs from URLs [[raw](https://raw.githubusercontent.com/danielmiessler/fabric/main/data/patterns/extract_videoid/system.md)]
+- **[extract_latest_video](https://github.com/danielmiessler/fabric/blob/main/data/patterns/extract_latest_video/system.md)**: Extracts latest YouTube video URLs [[raw](https://raw.githubusercontent.com/danielmiessler/fabric/main/data/patterns/extract_latest_video/system.md)]
+- **[get_wow_per_minute](https://github.com/danielmiessler/fabric/blob/main/data/patterns/get_wow_per_minute/system.md)**: Determines content's "wow-factor" [[raw](https://raw.githubusercontent.com/danielmiessler/fabric/main/data/patterns/get_wow_per_minute/system.md)]
+- **[summarize_lecture](https://github.com/danielmiessler/fabric/blob/main/data/patterns/summarize_lecture/system.md)**: Extracts topics from lecture transcripts [[raw](https://raw.githubusercontent.com/danielmiessler/fabric/main/data/patterns/summarize_lecture/system.md)]
+- **[create_video_chapters](https://github.com/danielmiessler/fabric/blob/main/data/patterns/create_video_chapters/system.md)**: Extracts topics and timestamps [[raw](https://raw.githubusercontent.com/danielmiessler/fabric/main/data/patterns/create_video_chapters/system.md)]
+- **[extract_instructions](https://github.com/danielmiessler/fabric/blob/main/data/patterns/extract_instructions/system.md)**: Extracts instructions from video transcripts [[raw](https://raw.githubusercontent.com/danielmiessler/fabric/main/data/patterns/extract_instructions/system.md)]
+- **[youtube_summary](https://github.com/danielmiessler/fabric/blob/main/data/patterns/youtube_summary/system.md)**: Creates timestamped video summaries [[raw](https://raw.githubusercontent.com/danielmiessler/fabric/main/data/patterns/youtube_summary/system.md)]
+- **[create_show_intro](https://github.com/danielmiessler/fabric/blob/main/data/patterns/create_show_intro/system.md)**: Creates intros for podcasts [[raw](https://raw.githubusercontent.com/danielmiessler/fabric/main/data/patterns/create_show_intro/system.md)]
+- **[extract_sponsors](https://github.com/danielmiessler/fabric/blob/main/data/patterns/extract_sponsors/system.md)**: Extracts sponsors from transcripts [[raw](https://raw.githubusercontent.com/danielmiessler/fabric/main/data/patterns/extract_sponsors/system.md)]
+- **[summarize_newsletter](https://github.com/danielmiessler/fabric/blob/main/data/patterns/summarize_newsletter/system.md)**: Summarizes newsletters [[raw](https://raw.githubusercontent.com/danielmiessler/fabric/main/data/patterns/summarize_newsletter/system.md)]
+- **[recommend_talkpanel_topics](https://github.com/danielmiessler/fabric/blob/main/data/patterns/recommend_talkpanel_topics/system.md)**: Recommends talk panel topics [[raw](https://raw.githubusercontent.com/danielmiessler/fabric/main/data/patterns/recommend_talkpanel_topics/system.md)]
 
 ### Specialized Professional Tasks
 
-- **analyse_patent**: Analyzes patents in detail
-- **analyse_military_strategy**: Analyzes historical battles
-- **analyze_proposition**: Analyzes ballot propositions
-- **analyze_spiritual_text**: Compares spiritual texts
-- **analyze_tech_impact**: Analyzes technology societal impact
-- **summarize_legislation**: Summarizes political proposals
-- **capture_thinkers_work**: Analyzes philosophers and works
-- **create_ai_jobs_analysis**: Analyzes job automation susceptibility
-- **dialog_with_socrates**: Engages in Socratic method dialogues
-- **extract_skills**: Extracts and classifies skills from job descriptions
-- **identify_job_stories**: Identifies key job requirements
-- **provide_guidance**: Provides psychological advice
+- **[analyze_patent](https://github.com/danielmiessler/fabric/blob/main/data/patterns/analyze_patent/system.md)**: Analyzes patents in detail [[raw](https://raw.githubusercontent.com/danielmiessler/fabric/main/data/patterns/analyze_patent/system.md)]
+- **[analyze_military_strategy](https://github.com/danielmiessler/fabric/blob/main/data/patterns/analyze_military_strategy/system.md)**: Analyzes historical battles [[raw](https://raw.githubusercontent.com/danielmiessler/fabric/main/data/patterns/analyze_military_strategy/system.md)]
+- **[analyze_proposition](https://github.com/danielmiessler/fabric/blob/main/data/patterns/analyze_proposition/system.md)**: Analyzes ballot propositions [[raw](https://raw.githubusercontent.com/danielmiessler/fabric/main/data/patterns/analyze_proposition/system.md)]
+- **[analyze_spiritual_text](https://github.com/danielmiessler/fabric/blob/main/data/patterns/analyze_spiritual_text/system.md)**: Compares spiritual texts [[raw](https://raw.githubusercontent.com/danielmiessler/fabric/main/data/patterns/analyze_spiritual_text/system.md)]
+- **[analyze_tech_impact](https://github.com/danielmiessler/fabric/blob/main/data/patterns/analyze_tech_impact/system.md)**: Analyzes technology societal impact [[raw](https://raw.githubusercontent.com/danielmiessler/fabric/main/data/patterns/analyze_tech_impact/system.md)]
+- **[analyze_mistakes](https://github.com/danielmiessler/fabric/blob/main/data/patterns/analyze_mistakes/system.md)**: Analyzes mistakes [[raw](https://raw.githubusercontent.com/danielmiessler/fabric/main/data/patterns/analyze_mistakes/system.md)]
+- **[summarize_legislation](https://github.com/danielmiessler/fabric/blob/main/data/patterns/summarize_legislation/system.md)**: Summarizes political proposals [[raw](https://raw.githubusercontent.com/danielmiessler/fabric/main/data/patterns/summarize_legislation/system.md)]
+- **[capture_thinkers_work](https://github.com/danielmiessler/fabric/blob/main/data/patterns/capture_thinkers_work/system.md)**: Analyzes philosophers and works [[raw](https://raw.githubusercontent.com/danielmiessler/fabric/main/data/patterns/capture_thinkers_work/system.md)]
+- **[create_ai_jobs_analysis](https://github.com/danielmiessler/fabric/blob/main/data/patterns/create_ai_jobs_analysis/system.md)**: Analyzes job automation susceptibility [[raw](https://raw.githubusercontent.com/danielmiessler/fabric/main/data/patterns/create_ai_jobs_analysis/system.md)]
+- **[dialog_with_socrates](https://github.com/danielmiessler/fabric/blob/main/data/patterns/dialog_with_socrates/system.md)**: Engages in Socratic method dialogues [[raw](https://raw.githubusercontent.com/danielmiessler/fabric/main/data/patterns/dialog_with_socrates/system.md)]
+- **[extract_skills](https://github.com/danielmiessler/fabric/blob/main/data/patterns/extract_skills/system.md)**: Extracts and classifies skills from job descriptions [[raw](https://raw.githubusercontent.com/danielmiessler/fabric/main/data/patterns/extract_skills/system.md)]
+- **[identify_job_stories](https://github.com/danielmiessler/fabric/blob/main/data/patterns/identify_job_stories/system.md)**: Identifies key job requirements [[raw](https://raw.githubusercontent.com/danielmiessler/fabric/main/data/patterns/identify_job_stories/system.md)]
+- **[provide_guidance](https://github.com/danielmiessler/fabric/blob/main/data/patterns/provide_guidance/system.md)**: Provides psychological advice [[raw](https://raw.githubusercontent.com/danielmiessler/fabric/main/data/patterns/provide_guidance/system.md)]
+- **[model_as_sherlock_freud](https://github.com/danielmiessler/fabric/blob/main/data/patterns/model_as_sherlock_freud/system.md)**: Models as Sherlock/Freud [[raw](https://raw.githubusercontent.com/danielmiessler/fabric/main/data/patterns/model_as_sherlock_freud/system.md)]
+- **[ask_uncle_duke](https://github.com/danielmiessler/fabric/blob/main/data/patterns/ask_uncle_duke/system.md)**: Ask Uncle Duke for advice [[raw](https://raw.githubusercontent.com/danielmiessler/fabric/main/data/patterns/ask_uncle_duke/system.md)]
+- **[predict_person_actions](https://github.com/danielmiessler/fabric/blob/main/data/patterns/predict_person_actions/system.md)**: Predicts person's actions [[raw](https://raw.githubusercontent.com/danielmiessler/fabric/main/data/patterns/predict_person_actions/system.md)]
+- **[find_female_life_partner](https://github.com/danielmiessler/fabric/blob/main/data/patterns/find_female_life_partner/system.md)**: Advice for finding a life partner [[raw](https://raw.githubusercontent.com/danielmiessler/fabric/main/data/patterns/find_female_life_partner/system.md)]
+- **[heal_person](https://github.com/danielmiessler/fabric/blob/main/data/patterns/heal_person/system.md)**: Provides healing guidance [[raw](https://raw.githubusercontent.com/danielmiessler/fabric/main/data/patterns/heal_person/system.md)]
+- **[recommend_yoga_practice](https://github.com/danielmiessler/fabric/blob/main/data/patterns/recommend_yoga_practice/system.md)**: Recommends yoga practices [[raw](https://raw.githubusercontent.com/danielmiessler/fabric/main/data/patterns/recommend_yoga_practice/system.md)]
+- **[extract_most_redeeming_thing](https://github.com/danielmiessler/fabric/blob/main/data/patterns/extract_most_redeeming_thing/system.md)**: Extracts the most redeeming thing [[raw](https://raw.githubusercontent.com/danielmiessler/fabric/main/data/patterns/extract_most_redeeming_thing/system.md)]
 
 ### Meeting & Documentation
 
-- **summarize_meeting**: Analyzes meeting transcripts
-- **transcribe_minutes**: Extracts meeting minutes
-- **create_newsletter_entry**: Creates newsletter summaries
-- **enrich_blog_post**: Enhances blog posts
-- **explain_docs**: Improves tool documentation
-- **extract_newsletter_wisdom**: Extracts newsletter content
-- **create_tags**: Identifies tags from content
-- **create_diy**: Creates DIY tutorial patterns
-- **extract_recipe**: Extracts recipe information
+- **[summarize_meeting](https://github.com/danielmiessler/fabric/blob/main/data/patterns/summarize_meeting/system.md)**: Analyzes meeting transcripts [[raw](https://raw.githubusercontent.com/danielmiessler/fabric/main/data/patterns/summarize_meeting/system.md)]
+- **[summarize_board_meeting](https://github.com/danielmiessler/fabric/blob/main/data/patterns/summarize_board_meeting/system.md)**: Summarizes board meetings [[raw](https://raw.githubusercontent.com/danielmiessler/fabric/main/data/patterns/summarize_board_meeting/system.md)]
+- **[transcribe_minutes](https://github.com/danielmiessler/fabric/blob/main/data/patterns/transcribe_minutes/system.md)**: Extracts meeting minutes [[raw](https://raw.githubusercontent.com/danielmiessler/fabric/main/data/patterns/transcribe_minutes/system.md)]
+- **[create_newsletter_entry](https://github.com/danielmiessler/fabric/blob/main/data/patterns/create_newsletter_entry/system.md)**: Creates newsletter summaries [[raw](https://raw.githubusercontent.com/danielmiessler/fabric/main/data/patterns/create_newsletter_entry/system.md)]
+- **[enrich_blog_post](https://github.com/danielmiessler/fabric/blob/main/data/patterns/enrich_blog_post/system.md)**: Enhances blog posts [[raw](https://raw.githubusercontent.com/danielmiessler/fabric/main/data/patterns/enrich_blog_post/system.md)]
+- **[explain_docs](https://github.com/danielmiessler/fabric/blob/main/data/patterns/explain_docs/system.md)**: Improves tool documentation [[raw](https://raw.githubusercontent.com/danielmiessler/fabric/main/data/patterns/explain_docs/system.md)]
+- **[create_diy](https://github.com/danielmiessler/fabric/blob/main/data/patterns/create_diy/system.md)**: Creates DIY tutorial patterns [[raw](https://raw.githubusercontent.com/danielmiessler/fabric/main/data/patterns/create_diy/system.md)]
+- **[extract_recipe](https://github.com/danielmiessler/fabric/blob/main/data/patterns/extract_recipe/system.md)**: Extracts recipe information [[raw](https://raw.githubusercontent.com/danielmiessler/fabric/main/data/patterns/extract_recipe/system.md)]
 
 ### Gaming & Creative
 
-- **create_npc**: Generates D&D 5E NPCs
-- **create_rpg_summary**: Summarizes RPG sessions
-- **summarize_rpg_session**: Similar to create_rpg_summary
-- **create_logo**: Creates minimalist company logos
-- **create_story_explanation**: Summarizes content in story format
+- **[create_npc](https://github.com/danielmiessler/fabric/blob/main/data/patterns/create_npc/system.md)**: Generates D&D 5E NPCs [[raw](https://raw.githubusercontent.com/danielmiessler/fabric/main/data/patterns/create_npc/system.md)]
+- **[create_rpg_summary](https://github.com/danielmiessler/fabric/blob/main/data/patterns/create_rpg_summary/system.md)**: Summarizes RPG sessions [[raw](https://raw.githubusercontent.com/danielmiessler/fabric/main/data/patterns/create_rpg_summary/system.md)]
+- **[summarize_rpg_session](https://github.com/danielmiessler/fabric/blob/main/data/patterns/summarize_rpg_session/system.md)**: Similar to create_rpg_summary [[raw](https://raw.githubusercontent.com/danielmiessler/fabric/main/data/patterns/summarize_rpg_session/system.md)]
+- **[create_logo](https://github.com/danielmiessler/fabric/blob/main/data/patterns/create_logo/system.md)**: Creates minimalist company logos [[raw](https://raw.githubusercontent.com/danielmiessler/fabric/main/data/patterns/create_logo/system.md)]
+- **[create_story_explanation](https://github.com/danielmiessler/fabric/blob/main/data/patterns/create_story_explanation/system.md)**: Summarizes content in story format [[raw](https://raw.githubusercontent.com/danielmiessler/fabric/main/data/patterns/create_story_explanation/system.md)]
+- **[create_story_about_person](https://github.com/danielmiessler/fabric/blob/main/data/patterns/create_story_about_person/system.md)**: Creates stories about people [[raw](https://raw.githubusercontent.com/danielmiessler/fabric/main/data/patterns/create_story_about_person/system.md)]
+- **[create_story_about_people_interaction](https://github.com/danielmiessler/fabric/blob/main/data/patterns/create_story_about_people_interaction/system.md)**: Creates stories about people interactions [[raw](https://raw.githubusercontent.com/danielmiessler/fabric/main/data/patterns/create_story_about_people_interaction/system.md)]
+
+### DSRP Framework Patterns
+
+- **[identify_dsrp_distinctions](https://github.com/danielmiessler/fabric/blob/main/data/patterns/identify_dsrp_distinctions/system.md)**: Identifies DSRP distinctions [[raw](https://raw.githubusercontent.com/danielmiessler/fabric/main/data/patterns/identify_dsrp_distinctions/system.md)]
+- **[identify_dsrp_perspectives](https://github.com/danielmiessler/fabric/blob/main/data/patterns/identify_dsrp_perspectives/system.md)**: Identifies DSRP perspectives [[raw](https://raw.githubusercontent.com/danielmiessler/fabric/main/data/patterns/identify_dsrp_perspectives/system.md)]
+- **[identify_dsrp_relationships](https://github.com/danielmiessler/fabric/blob/main/data/patterns/identify_dsrp_relationships/system.md)**: Identifies DSRP relationships [[raw](https://raw.githubusercontent.com/danielmiessler/fabric/main/data/patterns/identify_dsrp_relationships/system.md)]
+- **[identify_dsrp_systems](https://github.com/danielmiessler/fabric/blob/main/data/patterns/identify_dsrp_systems/system.md)**: Identifies DSRP systems [[raw](https://raw.githubusercontent.com/danielmiessler/fabric/main/data/patterns/identify_dsrp_systems/system.md)]
+
+### Personal Development (t_ patterns)
+
+- **[t_analyze_challenge_handling](https://github.com/danielmiessler/fabric/blob/main/data/patterns/t_analyze_challenge_handling/system.md)**: Analyzes challenge handling [[raw](https://raw.githubusercontent.com/danielmiessler/fabric/main/data/patterns/t_analyze_challenge_handling/system.md)]
+- **[t_check_dunning_kruger](https://github.com/danielmiessler/fabric/blob/main/data/patterns/t_check_dunning_kruger/system.md)**: Checks for Dunning-Kruger effect [[raw](https://raw.githubusercontent.com/danielmiessler/fabric/main/data/patterns/t_check_dunning_kruger/system.md)]
+- **[t_check_metrics](https://github.com/danielmiessler/fabric/blob/main/data/patterns/t_check_metrics/system.md)**: Checks metrics [[raw](https://raw.githubusercontent.com/danielmiessler/fabric/main/data/patterns/t_check_metrics/system.md)]
+- **[t_create_h3_career](https://github.com/danielmiessler/fabric/blob/main/data/patterns/t_create_h3_career/system.md)**: Creates H3 career plans [[raw](https://raw.githubusercontent.com/danielmiessler/fabric/main/data/patterns/t_create_h3_career/system.md)]
+- **[t_create_opening_sentences](https://github.com/danielmiessler/fabric/blob/main/data/patterns/t_create_opening_sentences/system.md)**: Creates opening sentences [[raw](https://raw.githubusercontent.com/danielmiessler/fabric/main/data/patterns/t_create_opening_sentences/system.md)]
+- **[t_describe_life_outlook](https://github.com/danielmiessler/fabric/blob/main/data/patterns/t_describe_life_outlook/system.md)**: Describes life outlook [[raw](https://raw.githubusercontent.com/danielmiessler/fabric/main/data/patterns/t_describe_life_outlook/system.md)]
+- **[t_extract_intro_sentences](https://github.com/danielmiessler/fabric/blob/main/data/patterns/t_extract_intro_sentences/system.md)**: Extracts intro sentences [[raw](https://raw.githubusercontent.com/danielmiessler/fabric/main/data/patterns/t_extract_intro_sentences/system.md)]
+- **[t_extract_panel_topics](https://github.com/danielmiessler/fabric/blob/main/data/patterns/t_extract_panel_topics/system.md)**: Extracts panel topics [[raw](https://raw.githubusercontent.com/danielmiessler/fabric/main/data/patterns/t_extract_panel_topics/system.md)]
+- **[t_find_blindspots](https://github.com/danielmiessler/fabric/blob/main/data/patterns/t_find_blindspots/system.md)**: Finds blindspots [[raw](https://raw.githubusercontent.com/danielmiessler/fabric/main/data/patterns/t_find_blindspots/system.md)]
+- **[t_find_negative_thinking](https://github.com/danielmiessler/fabric/blob/main/data/patterns/t_find_negative_thinking/system.md)**: Finds negative thinking patterns [[raw](https://raw.githubusercontent.com/danielmiessler/fabric/main/data/patterns/t_find_negative_thinking/system.md)]
+- **[t_find_neglected_goals](https://github.com/danielmiessler/fabric/blob/main/data/patterns/t_find_neglected_goals/system.md)**: Finds neglected goals [[raw](https://raw.githubusercontent.com/danielmiessler/fabric/main/data/patterns/t_find_neglected_goals/system.md)]
+- **[t_give_encouragement](https://github.com/danielmiessler/fabric/blob/main/data/patterns/t_give_encouragement/system.md)**: Gives encouragement [[raw](https://raw.githubusercontent.com/danielmiessler/fabric/main/data/patterns/t_give_encouragement/system.md)]
+- **[t_red_team_thinking](https://github.com/danielmiessler/fabric/blob/main/data/patterns/t_red_team_thinking/system.md)**: Red team thinking analysis [[raw](https://raw.githubusercontent.com/danielmiessler/fabric/main/data/patterns/t_red_team_thinking/system.md)]
+- **[t_threat_model_plans](https://github.com/danielmiessler/fabric/blob/main/data/patterns/t_threat_model_plans/system.md)**: Threat models plans [[raw](https://raw.githubusercontent.com/danielmiessler/fabric/main/data/patterns/t_threat_model_plans/system.md)]
+- **[t_visualize_mission_goals_projects](https://github.com/danielmiessler/fabric/blob/main/data/patterns/t_visualize_mission_goals_projects/system.md)**: Visualizes mission, goals, projects [[raw](https://raw.githubusercontent.com/danielmiessler/fabric/main/data/patterns/t_visualize_mission_goals_projects/system.md)]
+- **[t_year_in_review](https://github.com/danielmiessler/fabric/blob/main/data/patterns/t_year_in_review/system.md)**: Year in review analysis [[raw](https://raw.githubusercontent.com/danielmiessler/fabric/main/data/patterns/t_year_in_review/system.md)]
 
 ---
 
