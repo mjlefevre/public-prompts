@@ -6,7 +6,7 @@ Use this prompt with agentic coding tools (Claude Code, Cursor, Windsurf, Cline,
 
 ## The Prompt
 
-I want you to be brutally honest with me. Search through this project/repository and tell me the 10 worst things about this code. I don't want encouragement — I want the hard truth.
+I want you to be brutally honest with me. Search through this project/repository and tell me the 20 worst things about this code. I don't want encouragement — I want the hard truth.
 
 Look for:
 
@@ -44,7 +44,7 @@ Be specific. Name files, functions, and line numbers. Quote the offending code. 
 
 Prioritize by impact: what's actually causing pain vs. what's just ugly but harmless.
 
-After the top 10, give me:
+After the top 20, give me:
 1. The single change that would have the biggest positive impact
 2. The one thing that's actually done well (if anything)
 3. Your honest assessment: is this codebase worth saving or should parts be rewritten?
